@@ -44,7 +44,7 @@ export default function Homepage() {
           </h1>
 
           <p className="max-w-xl text-gray-600 mb-6 text-justify">
-            I’m a beginner web developer who is learning how to create websites 
+            I’m a beginner Web developer who is learning how to create websites 
             and improve my skills through practice and small projects.
           </p>
 
