@@ -156,6 +156,12 @@ export default function Homepage() {
 
         </div>
       </div>
+      <div className="-mt-2">
+        <h1 className="p-2">Explore more</h1>
+          <Link href="/projects">
+            <Button>View Projects</Button>
+          </Link>
+      </div>
 
     </div>
   );
