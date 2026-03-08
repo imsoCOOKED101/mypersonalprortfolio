@@ -41,7 +41,7 @@ export default function ContactSection() {
               <h3 className="font-semibold">Connect with me</h3>
             </div>
             <div className="flex gap-4">
-              <a href="https://github.com/Gam10196" target="_blank" className="p-2 bg-gray-800 rounded hover:bg-gray-700 transition">
+              <a href="https://github.com/imsoCOOKED101" target="_blank" className="p-2 bg-gray-800 rounded hover:bg-gray-700 transition">
                 <Github size={20} />
               </a>
               <a href="https://x.com/Crator124" target="_blank" className="p-2 bg-gray-800 rounded hover:bg-gray-700 transition">

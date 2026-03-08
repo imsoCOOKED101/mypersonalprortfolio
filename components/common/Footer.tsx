@@ -6,11 +6,11 @@ const footerLinks = {
     { name: "Contact", url: "/contact" },
   ],
   resources: [
-    { name: "GitHub", url: "https://github.com/Gam10196" },
+    { name: "GitHub", url: "https://github.com/imsoCOOKED101" },
     { name: "W3School", url: "https://www.w3schools.com/"},
   ],
   connect: [
-    { name: "GitHub", url: "https://github.com/Gam10196" },
+    { name: "GitHub", url: "https://github.com/imsoCOOKED101" },
     { name: "Facebook", url: "https://www.facebook.com/gamaliel10196/" },
   ],
 };

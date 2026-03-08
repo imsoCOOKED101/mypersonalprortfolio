@@ -56,7 +56,7 @@ export default function Homepage() {
               </Button>
             </Link>
 
-            <Link href="/contact">
+            <Link href="/contacts">
               <Button variant="outline" className="px-8">
                 Contact Me
               </Button>
@@ -65,7 +65,7 @@ export default function Homepage() {
 
           <div className="flex gap-2 mt-2">
             <Link
-              href="https://github.com/Gam10196"
+              href="https://github.com/imsoCOOKED101"
               target="_blank"
               className="p-2 rounded-full hover:bg-gray-200 transition"
             >
