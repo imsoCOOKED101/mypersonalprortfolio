@@ -27,6 +27,14 @@ const projects = [
     tech: ["HTML", "Css", "JavaScript"],
     url: "https://tinybubbles.vercel.app/",
   },
+  {
+    title: "MiniEcoMarket",
+    description:
+      "A very simple project where a Farmer can add products like Vegetables, Fruits, Meat and etc. also There's a Costumer section also where in He/She can buy the products of the Farmer.",
+    image: "/minieco.png",
+    tech: ["HTML", "Css", "JavaScript"],
+    url: "https://ecomarket-kappa.vercel.app/",
+  },
 ];
 
 
