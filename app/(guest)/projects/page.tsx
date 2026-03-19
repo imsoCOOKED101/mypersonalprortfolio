@@ -40,7 +40,7 @@ const projects = [
 
 export default function ProjectPage() {
   return (
-    <div className="defaultpage p-6">
+    <div className="defaultpage p-6 mt-10">
       <div className="flex flex-col items-center w-full mb-10">
         {/* <div className="flex justify-center rounded-lg bg-gray-200 p-2 mb-2">
           <h1 className="text-md">Recent Projects</h1>

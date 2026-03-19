@@ -22,12 +22,12 @@ const projects = [
     url: "https://myproducts-nine.vercel.app/",
   },
   {
-    title: "TinyBubbles",
+    title: "MiniEcoMarket",
     description:
-      "A very simple project about a laundry shop website.",
-    image: "/tinybubbles.png",
+      "A very simple project where a Farmer can add products like Vegetables, Fruits, Meat and etc. also There's a Costumer section also where in He/She can buy the products of the Farmer.",
+    image: "/minieco.png",
     tech: ["HTML", "Css", "JavaScript"],
-    url: "https://tinybubbles.vercel.app/",
+    url: "https://ecomarket-kappa.vercel.app/",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Homepage() {
           </h1>
 
           <p className="max-w-xl text-gray-600 mb-6 text-justify">
-            I’m a beginner Web developer who is learning how to create websites 
+            I’m a beginner Aspiring Web developer who is learning how to create websites 
             and improve my skills through practice and small projects.
           </p>
 
