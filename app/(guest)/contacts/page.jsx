@@ -1,19 +1,20 @@
 "use client";
 import { Github, Twitter, Facebook, Mail, Phone, MessageSquare } from "lucide-react"; 
 
+
 export default function ContactSection() {
   return (
-    <section className="px-50 py-2">
+    <section className="px-50 py-2 mt-10">
       {/* Header */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-15">
         <h1 className="text-3xl font-bold mb-4">Let&apos;s Get in Touch</h1>
         <p className="text-gray-600 text-lg">
-          Feel free to reach out for any inquiries or collaborations.
+          Feel free to contact me for any questions, opportunities, or collaborations..
         </p>
       </div>
 
       {/* Content */}
-      <div className="container mx-auto flex flex-col md:flex-row gap-8 px-4">
+      <div className="container mx-auto flex flex-col md:flex-row gap-8 px-4 mb-10">
         {/* Left Column: Info Cards */}
         <div className="flex-1 flex flex-col gap-6">
           {/* Email Card */}
