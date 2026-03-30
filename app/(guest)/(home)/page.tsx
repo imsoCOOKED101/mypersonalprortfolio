@@ -119,7 +119,7 @@ export default function Homepage() {
             <Link
               key={index}
               href={project.url}
-              className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition"
+              className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition dark:text-black"
             >
               <div className="relative h-40 md:h-44 lg:h-48 w-full">
                 <Image
