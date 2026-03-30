@@ -43,7 +43,7 @@ export default function Homepage() {
             Hi, I&apos;m Gam
           </h1>
 
-          <p className="text-gray-600 mb-6 text-justify text-sm md:text-base max-w-xl mx-auto md:mx-0">
+          <p className="text-gray-600 mb-6 text-justify text-sm md:text-base max-w-xl mx-auto md:mx-0 dark:text-white">
             I&apos;m a beginner Aspiring Web developer who is learning how to create websites
             and improve my skills through practice and small projects.
           </p>
@@ -85,7 +85,7 @@ export default function Homepage() {
         {/* Profile Image */}
         <div className="
           rounded-full p-2 shadow-md relative w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 mt-0 md:mt-10 lg:mt-20
-        ">
+">
           <Image
             src="/gams.jpg"
             alt="Gams"
@@ -98,7 +98,7 @@ export default function Homepage() {
       {/* Section Heading */}
       <div className="flex flex-col items-center w-full mb-8 md:mb-10">
         <div className="flex justify-center rounded-lg bg-gray-200 p-2 mb-2">
-          <h1 className="text-sm md:text-md">Recent Projects</h1>
+          <h1 className="text-sm md:text-md dark:text-black">Recent Projects</h1>
         </div>
 
         <div className="text-center max-w-2xl px-4">

@@ -34,7 +34,7 @@ export default function AboutPage() {
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
             Gamaliel C. Octobre
           </h1>
-          <p className="text-gray-600 text-sm md:text-base">
+          <p className="text-gray-600 text-sm md:text-base dark:text-white">
             An aspiring Web Developer
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function AboutPage() {
       {/* About Me */}
       <div className="border border-gray-300 p-4 md:p-6 rounded-lg mt-6 md:mt-10">
         <h1 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">About Me</h1>
-        <p className="text-gray-700 leading-relaxed text-justify text-sm md:text-base">
+        <p className="text-gray-700 leading-relaxed text-justify text-sm md:text-base dark:text-white">
           Hi, I am Gamaliel C. Octobre from Danao. I am currently studying at
           Cordova Public College (CPC), where I am developing my knowledge in
           information technology and web development. I am an aspiring web
@@ -70,8 +70,7 @@ export default function AboutPage() {
             {["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "TailwindCSS", "Shadcn"].map((tech) => (
               <span
                 key={tech}
-                className="text-xs px-2 py-1 border border-gray-300 rounded-md text-gray-700 cursor-default transition hover:bg-gray-200 hover:shadow-md"
-              >
+                className="text-xs px-2 py-1 border border-gray-300 rounded-md text-gray-700 cursor-default transition hover:bg-gray-200 hover:shadow-md dark:text-white">
                 {tech}
               </span>
             ))}

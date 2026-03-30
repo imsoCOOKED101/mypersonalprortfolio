@@ -42,7 +42,7 @@ export default function ProjectPage() {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">
           My Projects
         </h1>
-        <p className="text-sm md:text-base text-gray-600 max-w-2xl px-4">
+        <p className="text-sm md:text-base text-gray-600 max-w-2xl px-4 dark:text-white">
           A collection of projects I built while learning web development,
           showing my progress and skills.
         </p>
@@ -61,8 +61,7 @@ export default function ProjectPage() {
             href={project.url}
             target="_blank"
             rel="noreferrer"
-            className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition"
-          >
+            className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition dark:text-black">
             {/* Project Image */}
             <div className="relative h-40 md:h-44 lg:h-48 w-full">
               <Image

@@ -10,13 +10,11 @@ export default function ContactSection() {
 
   return (
     <section className="px-4 md:px-16 lg:px-32 py-6 mt-6 md:mt-10">
-
-      {/* Heading */}
       <div className="text-center mb-8 md:mb-12">
         <h1 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">
           Let&apos;s Get in Touch
         </h1>
-        <p className="text-gray-600 text-sm md:text-lg max-w-xl mx-auto">
+        <p className="text-gray-600 text-sm md:text-lg max-w-xl mx-auto dark:text-white">
           Feel free to contact me for any questions, opportunities, or collaborations.
         </p>
       </div>
@@ -24,7 +22,7 @@ export default function ContactSection() {
       {/* Main Content */}
       <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-10">
 
-        {/* Left — Contact Cards */}
+        {/* Left Side —> Contact Cards */}
         <div className="flex flex-col gap-4 md:gap-6 w-full md:flex-1">
 
           {/* Email Card */}
@@ -83,7 +81,7 @@ export default function ContactSection() {
 
         {/* Right — Contact Form */}
         <div className="w-full md:flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md">
-          <h2 className="text-lg md:text-xl font-bold mb-2 md:mb-4">Get in Touch</h2>
+          <h2 className="text-lg md:text-xl font-bold mb-2 md:mb-4 dark:text-black">Get in Touch</h2>
           <p className="text-gray-600 text-sm md:text-base mb-4">
             Whether you have a project in mind or simply want to connect, I&apos;d love to hear from you.
           </p>
@@ -95,13 +93,13 @@ export default function ContactSection() {
                 type="text"
                 placeholder="First Name"
                 required
-                className="flex-1 border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                className="flex-1 border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:text-gray-800"
               />
               <input
                 type="text"
                 placeholder="Last Name"
                 required
-                className="flex-1 border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                className="flex-1 border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:text-gray-800"
               />
             </div>
 
@@ -109,7 +107,7 @@ export default function ContactSection() {
               type="email"
               placeholder="Email"
               required
-              className="border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"
+              className="border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:text-gray-800"
             />
 
             <textarea
@@ -117,7 +115,7 @@ export default function ContactSection() {
               maxLength={500}
               rows={4}
               required
-              className="border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black resize-none"
+              className="border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black resize-none dark:text-gray-800 "
             />
 
             <button
